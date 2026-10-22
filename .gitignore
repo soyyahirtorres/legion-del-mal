@@ -12,3 +12,5 @@ logs/server*.log
 *.env
 
 PRUEBAS.MD
+
+.DS_Store
