@@ -39,5 +39,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Imprimir variabes
+        run: |
+          echo "Inputs del workflow"
+          echo "El villano que envia el mensaje es: ${{ inputs.villano }}"
+          echo "El mensaje es: ${{inputs.mensaje }}"
+          echo "La prioridad del mensaje es: ${{ inputs.prioridad }}"
 
