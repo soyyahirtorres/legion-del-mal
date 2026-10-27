@@ -2,7 +2,7 @@
 name: Plantilla para bugs de software
 about: Ayuadanos a mejorar
 title: 'Bug:'
-labels: bug
+labels: bug, Mejora de software
 assignees: soyyahirtorres
 
 ---
