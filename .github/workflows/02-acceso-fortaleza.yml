@@ -16,8 +16,7 @@ jobs:
                 echo ""
                 echo "x, pero que paso= no hay nada"
             - name: Desbloquear boveda
-              run: |
-                uses: actions/checkout@v4
+              uses: actions/checkout@v4
             - name: Ver planes
               run: |
                 echo "Buscar los archivos de la legion"
