@@ -22,3 +22,18 @@ jobs:
                 echo "Repo: ${GITHUB_REPOSITORY}"
                 echo "Operacion: ${{ github.sha }}"
                 echo "Metada: ${{ toJSON(github) }}"
+
+            - name: Capacidades de la gente
+              run: |
+                echo "Capacidades detectadas"
+                echo "Sistema operativo:"
+                uname -a
+                echo "habiliadades tecnicas"
+                node --version
+                git --version
+                python3 --version
+
+            - name: Reconocimiento del terreno
+              run: |
+                echo "Reconocimiento del terreno"
+                ls /
