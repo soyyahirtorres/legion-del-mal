@@ -15,3 +15,17 @@ jobs:
                 ls -la
                 echo ""
                 echo "x, pero que paso= no hay nada"
+            - name: Desbloquear boveda
+              run: |
+                uses: actions/checkout@v4
+            - name: Ver planes
+              run: |
+                echo "Buscar los archivos de la legion"
+                ls -la
+                echo "Encontrado los planes de la legion"
+                echo "planes"  
+                ls planes/
+                echo "villanos"
+                ls villanos/
+                echo "Inteligencia"
+                ls inteligencia/
