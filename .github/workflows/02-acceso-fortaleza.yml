@@ -1,7 +1,7 @@
 name: Acceso a la fortaleza
 
 on:
-    push
+    workflow_dispatch:
 
 jobs:
     acceso-a-la-fortaleza:
