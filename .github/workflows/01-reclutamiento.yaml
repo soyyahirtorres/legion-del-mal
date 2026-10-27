@@ -20,5 +20,5 @@ jobs:
                 echo "Nombre clave:  ${GITHUB_ACTOR}"
                 echo "Contexto de Github"
                 echo "Repo: ${GITHUB_REPOSITORY}"
-                echo "Operacion: ${github.sha}"
-                echo "Metada: ${tojson(github)}"
+                echo "Operacion: ${{ github.sha }}"
+                echo "Metada: ${{ toJSON(github) }}"
