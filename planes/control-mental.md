@@ -6,3 +6,6 @@
 1.
 2
 3
+
+## Plan de escape
+1. 

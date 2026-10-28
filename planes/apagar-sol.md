@@ -7,3 +7,6 @@
 4.
 
 ### Lugar donde se encuentra
+
+## Plan de escape
+- En caso de 
