@@ -52,3 +52,5 @@ Si el combate es inevitable: Magneto. La armadura de Iron Man es metal.
 _"Stark se cree la mente más brillante del planeta. No lo es. Yo lo soy."_ — Lex Luthor
 _"Técnicamente, yo soy la mente más brillante del planeta. Ninguno de los dos es siquiera la mente más brillante de esta sala."_ — Brainiac
 _"...La próxima mejora de la Fortaleza no incluirá a Brainiac."_ — Lex Luthor
+
+## Estrategia recomendada
