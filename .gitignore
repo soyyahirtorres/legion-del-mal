@@ -14,3 +14,5 @@ logs/server*.log
 PRUEBAS.MD
 
 .DS_Store
+
+.github/workflows/06b-espia-error-ejecucion.yml
