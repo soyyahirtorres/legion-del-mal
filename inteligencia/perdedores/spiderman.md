@@ -18,3 +18,4 @@ Spiderman es:
 3.
 4.
 
+## Estrategia recomendada
