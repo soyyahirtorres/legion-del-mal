@@ -21,6 +21,16 @@ on:
         required: true
         default: 'La mision ha sido cumplida'
 
+      cow-caracter: 
+        description: 'Caracter de la vaca'
+        required: true
+        type: choice
+        options:
+          - eyes
+          - tux
+          - dragon
+          - ghostbusters
+
       prioridad: 
         description: 'Nivel de prioridad del mensaje'
         required: true
