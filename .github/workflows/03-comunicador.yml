@@ -49,7 +49,7 @@ jobs:
           echo "La prioridad del mensaje es: ${{ inputs.prioridad }}"
 
           echo "Transmision del mensaje"
-          cowsay -f eyes "${{inputs.mensaje }}""
+          cowsay -f eyes "${{inputs.mensaje }}"
 
           echo "----- ${{ inputs.villano }} ha enviado el mensaje al consejo de la legion del mal -----"
 
