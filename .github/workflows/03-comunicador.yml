@@ -38,11 +38,18 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+
+      - name: Instalar el transmisor de la legion del mal
+        run: sudo apt-get install -y cowsay
+
       - name: Imprimir variabes
         run: |
           echo "Inputs del workflow"
           echo "El villano que envia el mensaje es: ${{ inputs.villano }}"
-          echo "El mensaje es: ${{inputs.mensaje }}"
           echo "La prioridad del mensaje es: ${{ inputs.prioridad }}"
+
+          echo "Transmision del mensaje"
+          cowsay -f eyes "${{inputs.mensaje }}""
+
+          echo "----- ${{ inputs.villano }} ha enviado el mensaje al consejo de la legion del mal -----"
 
